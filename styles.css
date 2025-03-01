@@ -69,7 +69,7 @@ h3 {
   text-align: left;
   color: rgba(55, 53, 53, 0.574);
   font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: poppins;
   font-weight: 200;
   padding: 0;
   margin: 0;
@@ -122,6 +122,16 @@ h3 {
   border: none;
   position: relative;
   top: -60px;
+}
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.netherlands-tourism.com/wp-content/uploads/2019/02/ccimage-shutterstock_245749666.jpg");
+  padding: 100px 0;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 @media (max-width: 900px) {
   .box {
@@ -190,7 +200,7 @@ h3 {
     margin: 0;
   }
   p {
-    margin: 0;
+    margin-right: 20px;
     padding: 0;
     text-align: center;
     color: white;
@@ -235,4 +245,37 @@ h3 {
     padding-top: 90px;
     margin: 0 auto;
   }
+}
+
+footer h4 {
+  margin: 0%;
+  padding: 0%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+footer p {
+  margin: 0%;
+  padding: 0%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  text-align: left;
+}
+footer li {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+footer a {
+  color: rgba(238, 231, 231, 0.827);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr; /* Ensures three columns */
+  gap: 20px; /* Adds spacing between columns */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
